@@ -18,20 +18,3 @@ function App() {
 }
 
 export default App
-
-/*
-
-      import WorksScreen from './screens/WorksScreen'
-      import ResumeScreen from './screens/ResumeScreen'
-      import ServicesScreen from './screens/ServicesScreen'
-      import ContactScreen from './screens/ContactScreen'
-      import LoginScreen from './screens/LoginScreen'
-
-      
-          <Route path='/works' component={WorksScreen} exact />
-          <Route path='/resume' component={ResumeScreen} exact />
-          <Route path='/services' component={ServicesScreen} exact />
-          <Route path='/contact' component={ContactScreen} exact />
-          <Route path='/login' component={LoginScreen} exact />
-  
-  */

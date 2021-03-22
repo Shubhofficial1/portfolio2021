@@ -40,13 +40,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-/*
- <Container>
-        <Row>
-          <Col className='py-3 text-center'>
-            &copy; Developed with ❤ by Shubham
-          </Col>
-        </Row>
-      </Container>
-*/

@@ -3,34 +3,40 @@
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .heading {
   text-align: left;
+  /* new */
+  padding-left: 30px;
 }
 
 .heading h1 {
   font-size: 28px;
-  font-weight: 600;
-  padding-bottom: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
   transition: all ease-in-out 0.2s;
   font-family: 'Mulish', sans-serif;
 }
 
 .heading p {
-  font-size: 16px;
-  color: #aeaeae;
+  color: #6e7c7c;
+  font-size: 14px;
   font-weight: 600;
-  padding-bottom: 20px;
+  /* text-transform: capitalize; */
   max-width: 750px;
   transition: all ease-in-out 0.2s;
   font-family: 'Mulish', sans-serif;
+  padding-bottom: 20px;
+  line-height: 1.5rem;
 }
 
 .skills {
   display: flex;
   flex-wrap: wrap;
+  /* new */
+  padding-left: 30px;
 }
 
 .skills span {
@@ -46,14 +52,22 @@
 
 @media only screen and (max-width: 700px) {
   .section__2 {
-    padding: 20px;
+    padding: 10px;
   }
   .heading p {
     font-size: 14px;
   }
 
+  .skills {
+    padding: 0px;
+  }
+
   .skills span {
     min-width: 100px;
     font-size: 14px;
+  }
+
+  .heading {
+    padding: 0px;
   }
 }
