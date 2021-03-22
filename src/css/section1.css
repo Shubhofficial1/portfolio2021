@@ -1,0 +1,64 @@
+.section__1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  padding: 5px;
+  padding-top: 100px;
+  /* border: 1px solid black;*/
+}
+
+.image {
+  object-fit: cover;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  /* box-shadow: 3px 6px 5px 3px rgba(0, 0, 0, 0.1); */
+}
+
+.intro {
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: 'Chelsea Market', cursive;
+  transition: all 0.5s ease-in-out;
+}
+
+.description {
+  font-size: 18px;
+  max-width: 500px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+
+  /* text-transform: lowercase; */
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+.contact__button {
+  margin-top: 30px;
+  background-color: #422bd8;
+  padding: 12px 35px;
+  border-radius: 25px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.contact__button:hover {
+  background-color: #5e47f5;
+  color: white;
+  box-shadow: 6px 6px 5px 3px rgba(0, 0, 0, 0.1);
+}
