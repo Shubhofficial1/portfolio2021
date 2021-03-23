@@ -1,0 +1,44 @@
+.projectScreen {
+}
+
+.projectScreen button {
+  background-color: #ccffbd;
+  color: #181a1b;
+  font-family: 'Mulish', sans-serif;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  margin-top: 100px;
+  margin-bottom: 30px;
+
+  .projectScreen button:hover {
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.projectScreen p {
+  font-family: 'Mulish', sans-serif;
+  max-width: 700px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6e7c7c;
+  line-height: 1.5rem;
+  padding-top: 10px;
+  animation: fadeinout 1s linear 1 forwards;
+}
+
+.projectScreen h1 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 10px;
+  font-family: 'Mulish', sans-serif;
+  animation: fadeinout 1s linear 1 forwards;
+}
+
+.projectScreen img {
+  width: 100%;
+  object-fit: contain;
+  animation: fadeinout 1s linear 1 forwards;
+}

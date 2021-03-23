@@ -1,5 +1,6 @@
 const projects = [
   {
+    _id: '1',
     name: 'Netflix Clone',
     description:
       'A full stack application built using React and Redux. The application is a movie rental-based web application that plays videos using YouTube embed player.',
@@ -8,6 +9,7 @@ const projects = [
     color: '#aeaeae',
   },
   {
+    _id: '2',
     name: 'Gaana',
     description:
       'You love YouTube, and you love your music.I bring the best of both worlds together with gaana, the best place to listen to music while you code. ',
@@ -16,6 +18,7 @@ const projects = [
     color: '#aeaeae',
   },
   {
+    _id: '3',
     name: 'Proshop',
     description:
       'Experience a faster and sleeker (proshop) shopping experience. Browse and buy products directly from your phone, anytime, anywhere.',
@@ -24,6 +27,7 @@ const projects = [
     color: '#aeaeae',
   },
   {
+    _id: '4',
     name: 'Virtual Labs ',
     description:
       'Virtual labs is a initiative by govt of india to develop e-learning practical labs for engineering students under national mission of education through ICT',

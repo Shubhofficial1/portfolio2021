@@ -19,7 +19,6 @@ const Section5 = () => {
           to create memorable products that are not only enjoyable to use but
           are written in code that's maintainable and easy to understand.
         </p>
-        <div className='mail'>Shubhofficial1@gmail.com</div>
       </div>
       <div className='right'>
         <img className='image' src='./images/pp.jpg' alt=''></img>

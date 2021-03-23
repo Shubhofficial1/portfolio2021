@@ -19,7 +19,7 @@ const Section2 = () => {
         <span>React</span>
         <span>SASS</span>
         <span>Flutter</span>
-        <span>Cli</span>
+        <span>MongoDb</span>
         <span>Git</span>
         <span>Angular</span>
       </div>
