@@ -18,8 +18,3 @@ const ProjectScreen = ({ match }) => {
 }
 
 export default ProjectScreen
-
-/*
-
-
-*/

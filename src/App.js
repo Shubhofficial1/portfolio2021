@@ -10,11 +10,10 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-
       <main className='py-3'>
         <Container>
           <Route path='/' component={HomeScreen} exact />
-          <Route path='/product/:id' component={ProjectScreen} />
+          <Route path='/project/:id' component={ProjectScreen} />
         </Container>
       </main>
       <Footer />

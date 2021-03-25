@@ -33,7 +33,7 @@
   line-height: 1.5rem;
 }
 
-.product__card {
+.project__card {
   display: flex;
   flex-direction: column;
   width: 480px;
@@ -41,7 +41,7 @@
   transition: all ease-in-out 0.2s;
 }
 
-.product__img {
+.project__img {
   border-radius: 10px;
   display: block;
   width: 100%;
@@ -52,18 +52,18 @@
   user-select: none;
 }
 
-.product__img:hover {
+.project__img:hover {
   transform: scale(1.02);
 }
 
-.product__name {
+.project__name {
   font-size: 32px;
   font-weight: 600;
   padding-top: 10px;
   font-family: 'Mulish', sans-serif;
 }
 
-.product__description {
+.project__description {
   font-size: 14px;
   font-weight: 500;
   max-width: 400px;
@@ -75,11 +75,11 @@
   overflow: hidden;
 }
 
-.product__card a {
+.project__card a {
   text-decoration: none;
 }
 
-.product__card span {
+.project__card span {
   color: #40394a;
   font-size: 16px;
   font-weight: 500;
@@ -87,31 +87,31 @@
   padding-bottom: 20px;
 }
 
-.product__card span:hover {
+.project__card span:hover {
   cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 6px;
 }
 
-.product__card span i {
+.project__card span i {
   font-size: 12px;
   padding-left: 2px;
 }
 
 @media only screen and (max-width: 1300px) {
-  .product__card {
+  .project__card {
     width: 400px;
   }
 }
 
 @media only screen and (max-width: 1100px) {
-  .product__card {
+  .project__card {
     width: 400px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .product__card {
+  .project__card {
     width: 700px;
   }
 }
@@ -121,7 +121,7 @@
     font-size: 22px;
   }
 
-  .product__card span {
+  .project__card span {
     font-size: 14px;
   }
 }

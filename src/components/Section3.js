@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductCard from '../components/ProductCard'
+import ProjectCard from './ProjectCard'
 import projects from '../projects'
 import '../css/section3.css'
 
@@ -12,8 +12,8 @@ const Section3 = () => {
         at some of the applications and bootathon I've dedicated my time to.
       </p>
       <div className='section3__grid'>
-        {projects.map((product) => (
-          <ProductCard product={product} />
+        {projects.map((project) => (
+          <ProjectCard project={project} />
         ))}
       </div>
     </div>
