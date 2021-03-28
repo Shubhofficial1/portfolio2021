@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import HomeScreen from './screens/HomeScreen'
 import ProjectScreen from './screens/ProjectScreen'
 import ScrollToTop from './components/ScrollToTop'
+import ContactScreen from './screens/ContactScreen'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Container>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/project/:id' component={ProjectScreen} />
+          <Route path='/contact' component={ContactScreen} />
         </Container>
       </main>
       <Footer />

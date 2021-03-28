@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
       <p className='project__description'>{project.description}</p>
       <Link to={`/project/${project._id}`}>
         <span>
-          View Project <i class='fas fa-chevron-right'></i>
+          View Project <i className='fas fa-chevron-right'></i>
         </span>
       </Link>
     </div>

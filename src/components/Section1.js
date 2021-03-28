@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/section1.css'
+
 const Section1 = () => {
   return (
     <div className='section1'>

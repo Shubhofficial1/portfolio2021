@@ -12,9 +12,6 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  /* background: linear-gradient(#ec6f66, #f3a183); */
-  /* background: linear-gradient(#a1c4fd, #c2e9fb); */
-  /* background: linear-gradient(#a4ebf3, #ccf2f4); */
 }
 
 @media only screen and (max-width: 700px) {
@@ -33,12 +30,11 @@
   font-size: 14px;
   font-weight: 400;
   color: white;
-  /* color: #222831; */
   text-transform: capitalize;
   font-family: 'Mulish', sans-serif;
 }
 
-.section__4 button {
+.button {
   background-color: #181a1b;
   color: white;
   padding: 10px;
@@ -46,9 +42,62 @@
   padding-left: 20px;
   border-radius: 5px;
   border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
 }
 
-.section__4 button:hover {
+.button:hover {
   background-color: black;
+  text-decoration: none;
+  color: white;
+  box-shadow: 3px 6px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.contact__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.contact__body h4 {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-family: 'Mulish', sans-serif;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.form__control {
+  width: 300px;
+}
+
+.contact__button {
+  background-color: #181a1b;
+  color: white;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+}
+
+.contact__button:hover {
+  background-color: black;
+  text-decoration: none;
+  color: white;
   box-shadow: 3px 6px 5px 3px rgba(0, 0, 0, 0.1);
 }

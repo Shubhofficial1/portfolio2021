@@ -13,7 +13,7 @@ const Section3 = () => {
       </p>
       <div className='section3__grid'>
         {projects.map((project) => (
-          <ProjectCard project={project} />
+          <ProjectCard key={project._id} project={project} />
         ))}
       </div>
     </div>
