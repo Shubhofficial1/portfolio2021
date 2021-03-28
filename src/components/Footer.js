@@ -11,10 +11,9 @@ const Footer = () => {
           </div>
         </div>
         <div className='bootcamp'>
-          <h3>ONLINE BOOTCAMP</h3>
-
-          <p>React Bootcamp</p>
-          <p>Flutter Bootcamp</p>
+          <h3>Documents</h3>
+          <p>Resume</p>
+          <p>Certificates</p>
           <p>Faq's</p>
         </div>
         <div className='about'>
